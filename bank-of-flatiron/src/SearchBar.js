@@ -1,7 +1,10 @@
+// Import necessary dependencies
 import React from "react";
 
+// Define the SearchBar component
 function SearchBar({ searchTerm, setSearchTerm }) {
   return (
+    // Render the SearchBar component
     <input
       type="text"
       placeholder="Search by description"
@@ -11,4 +14,5 @@ function SearchBar({ searchTerm, setSearchTerm }) {
   );
 }
 
+// Export the SearchBar component
 export default SearchBar;

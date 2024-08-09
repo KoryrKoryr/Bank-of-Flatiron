@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Bank of Flatiron
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bank of Flatiron is a React application that allows users to manage their bank transactions. It provides a simple interface to view, add, delete, and sort transactions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **View Transactions:** Display all transactions in a table format.
+- **Add Transactions:** Users can fill out a form to add a new transaction to the list.
+- **Search Transactions:** Filter transactions by typing into the search bar.
+- **Sort Transactions:** Sort transactions alphabetically by category or description.
+- **Delete Transactions:** Remove a transaction from the list.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Front-end JavaScript library for building user interfaces.
+- JSON Server: A full fake REST API for testing and prototyping.
+- CSS: Styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation Instructions
 
-### `npm test`
+To get started with Bank-of-Flatiron, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   - git clone https://github.com/KoryrKoryr/Bank-of-Flatiron
+   - cd Bank-of-Flatiron
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Navigate to project root directory and run:
+     - npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Set up the JSON server:**
 
-### `npm run eject`
+   - Install JSON server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+     - npm install -g json-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Run the JSON server to serve the transaction data:
+     - npm run start-server
+     - This will start the server at http://localhost:8000/transactions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Run the app:**
+   - Start React App:
+     - npm start
+   - Open http://localhost:3000 to view it in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Viewing Transactions:** All transactions are listed in a table.
+**Adding a Transaction:** Fill out the form and click "Add Transaction" to add a new entry.
+**Searching Transactions:** Type into the search bar to filter transactions by description.
+**Sorting Transactions:** Click on "Sort by Category" or "Sort by Description" to sort the list.
+**Deleting a Transaction:** Click the "Delete" button next to a transaction to remove it.
