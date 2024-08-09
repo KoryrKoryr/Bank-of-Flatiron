@@ -47,8 +47,8 @@ To get started with Bank-of-Flatiron, follow these steps:
 
 ## Usage
 
-**Viewing Transactions:** All transactions are listed in a table.
-**Adding a Transaction:** Fill out the form and click "Add Transaction" to add a new entry.
-**Searching Transactions:** Type into the search bar to filter transactions by description.
-**Sorting Transactions:** Click on "Sort by Category" or "Sort by Description" to sort the list.
-**Deleting a Transaction:** Click the "Delete" button next to a transaction to remove it.
+- **Viewing Transactions:** All transactions are listed in a table.
+- **Adding a Transaction:** Fill out the form and click "Add Transaction" to add a new entry.
+- **Searching Transactions:** Type into the search bar to filter transactions by description.
+- **Sorting Transactions:** Click on "Sort by Category" or "Sort by Description" to sort the list.
+- **Deleting a Transaction:** Click the "Delete" button next to a transaction to remove it.
