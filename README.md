@@ -53,4 +53,7 @@ To get started with Bank-of-Flatiron, follow these steps:
 - CSS
 
 ## Hosted URL
-- The app is hosted on vercel at: https://bank-of-flatiron-o8xlidbus-denis-korirs-projects.vercel.app/
+- The app is hosted on vercel at:
+   - https://bank-of-flatiron-seven-flame.vercel.app
+   - https://bank-of-flatiron-o8xlidbus-denis-korirs-projects.vercel.app/
+   - https://bank-of-flatiron-git-main-denis-korirs-projects.vercel.app/
