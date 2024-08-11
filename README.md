@@ -1,6 +1,6 @@
 # Bank of Flatiron
 
-Bank of Flatiron is an app that allows users to manage their bank transactions.
+An app that allows users to manage their bank transactions.
 
 ## My Features
 
