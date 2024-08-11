@@ -20,7 +20,7 @@ class App extends Component {
 
   // Fetch data when the component mounts
   componentDidMount() {
-    fetch("http://localhost:8000/transactions")
+    fetch("https://miniature-system.vercel.app/transactions")
       .then((response) => response.json())
       .then((data) => this.setState({ transactions: data }));
   }
