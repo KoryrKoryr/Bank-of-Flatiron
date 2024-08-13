@@ -40,7 +40,7 @@ To get started with Bank-of-Flatiron, follow these steps:
 
    - Run the JSON server to serve the transaction data:
      - npm run start-server
-     - This will start the server at http://localhost:8000/transactions.
+     - This will start the server at https://miniature-system.vercel.app/transactions
 
 4. **Running the app:**
    - Start React App:
