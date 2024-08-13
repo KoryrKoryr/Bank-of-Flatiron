@@ -33,19 +33,12 @@ To get started with Bank-of-Flatiron, follow these steps:
      - npm install
 
 3. **Setting up the JSON server:**
-
-   - Install JSON server:
-
-     - npm install -g json-server
-
-   - Run the JSON server to serve the transaction data:
-     - npm run start-server
-     - This will start the server at https://miniature-system.vercel.app/transactions
+   - The JSON server is hosted on vercel at: https://miniature-system.vercel.app/transactions
 
 4. **Running the app:**
    - Start React App:
      - npm start
-   - Open http://localhost:3000 to view it in your browser.
+   - Open https://bank-of-flatiron-seven-flame.vercel.app/ to view it in your browser.
 
 ## Technologies Used
 - React
